@@ -1,0 +1,26 @@
+git for windows how to
+
+download and install:
+http://git-scm.com/download/win
+
+open git gui
+c:\programme\git\bin
+
+projektarchiv klonen
+herkunft: https://github.com/mfreytag/trinkspiel.git
+ziel: is\mir\so\latte
+
+bearbeiten - optionen - global (alle projektarchive)
+benutzername und email eintragen - speichern
+
+im zielverzeichnis arbeiten, wenn fertig in git gui f5 (reload)
+versionsbeschreibung - kurze zusammenfassung, was du gerade verändert hast
+
+alles bereitstellen
+eintragen
+versenden (lokal master - github origin)
+github username
+github password
+
+jetzt können andere nen pull machen und haben die aktuelle version
+
