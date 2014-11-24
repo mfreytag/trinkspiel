@@ -31,3 +31,45 @@ im windows explorer rechtsklick im zielordner - git bash
 $ git pull origin master
 
 jetzt ist der lokale zustand aktuell
+
+################
+komplett in git bash
+
+$ git clone https://github.com/mfreytag/trinkspiel.git
+Cloning into 'trinkspiel'...
+remote: Counting objects: 26, done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 26 (delta 7), reused 15 (delta 3)
+Unpacking objects: 100% (26/26), done.
+Checking connectivity... done.
+$ cd trinkspiel
+
+arbeiten am projekt
+
+$ git add .
+$ git commit -m "ich teste git bash"
+$ git push origin master
+Username for 'https://github.com': mfreytag
+Password for 'https://mfreytag@github.com':
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 280 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/mfreytag/trinkspiel.git
+   2700f2a..8ce5a32  master -> master
+
+jetzt sind lokale arbeiten zum github repo synchonisiert
+
+kollegen müssen jetzt nen pull machen, damit sie die änderungen lokal haben und weiterarbeiten können
+
+$ git pull origin master
+From https://github.com/mfreytag/trinkspiel
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+wenn kollege fertig ist mit arbeiten
+
+$ git add .
+$ git commit -m "was ich heut gemacht hab"
+$ git push origin master
