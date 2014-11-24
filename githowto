@@ -25,3 +25,9 @@ github password
 jetzt können andere nen pull machen und haben die aktuelle version
 
 #janniks test
+
+der pull klappt bei mir in der gui nich, alternativ:
+im windows explorer rechtsklick im zielordner - git bash
+$ git pull origin master
+
+jetzt ist der lokale zustand aktuell
